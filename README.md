@@ -1,0 +1,3 @@
+# Firebase Asynchronous Operation Error
+
+This repository demonstrates a common error when working with Firebase: attempting to access data from a document snapshot before the asynchronous operation completing.  The `bug.js` file shows the problematic code, while `bugSolution.js` provides the corrected version using `async/await` or `.then()` to handle the asynchronous nature of Firebase operations properly.  Make sure to install the Firebase Javascript SDK before testing.
